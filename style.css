@@ -1,0 +1,95 @@
+/* Navigation bar */
+.navbar {
+  /*sets the color of the navbar */
+  background-image: linear-gradient(
+    135deg,
+    rgb(149, 168, 177),
+    rgb(141, 114, 130) 75%
+  );
+}
+
+/* Company logo */
+.navbar-brand {
+  /* add padding to the logo to center it in the navbar */
+  margin-left: 40%;
+}
+
+/* Logo image */
+#labtop {
+  /* affects the logo image size so it centers with the company name */
+  width: 25%;
+}
+
+/* Shopping cart image */
+#cart {
+  /* makes the shopping cart bigger so it's easier to see on the navbar */
+  width: 2rem;
+}
+
+/* The two input forms */
+.row {
+  /* overrides default bootstrap top-margin so the forms are centered in the website */
+  margin-top: 10% !important;
+  /* overrides default bootstrap left-margin so the forms are centered in the website */
+  margin-left: 5% !important;
+  /* adds margin to the bottom of the forms so the footer is at the bootom of the page when on a tablet display device */
+  margin-bottom: 23%;
+}
+
+/* form on the right of the page */
+.first-form {
+  /* adds a gap between form rows so they aren't crowded on top of each other */
+  row-gap: 30px;
+}
+
+/* form on the left of the page */
+.second-form {
+  /* tranforms the form placement into a column instead of row */
+  flex-direction: column;
+  /* limits the size of the input fields */
+  width: max-content;
+  /* adds padding at the top to put inline with form to the right */
+  padding-top: 3.35%;
+  /* adds space between form fields so they aren't corwded together */
+  gap: 31px;
+}
+
+/* add to cart button and proceed to checkout button */
+.shopping-cart-buttons {
+  /* adds padding to the buttons to put it inline with the last line of the form on the left */
+  padding-top: 11%;
+}
+
+/* proceed to checkout button */
+#proceedToCheckout {
+  /* creates seperation between this buttona dn add to cart button */
+  margin-top: 20%;
+  /* moves the button slightly left so it goes below add to cart button */
+  margin-left: 0.1%;
+}
+
+/* footer */
+footer {
+  /* makes the footer a flexbox display element */
+  display: flex;
+  /*sets the color of the footer the same as the navbar */
+  background-image: linear-gradient(
+    135deg,
+    rgb(149, 168, 177),
+    rgb(141, 114, 130) 75%
+  );
+  /* makes the footer bigger */
+  height: 50px;
+  /* adds padding to center the company logo and name on the vertical axis */
+  padding-top: 10px;
+  /* centers the logo and company name on the horizontal axis */
+  justify-content: center;
+}
+
+/* footer image*/
+#labtop2 {
+  /* cnahes the height of the image so it's inline with the company name */
+  height: 70%;
+  /* adds padding to the image to create a bit of space between logo and company name */
+  padding-right: 5px;
+}
